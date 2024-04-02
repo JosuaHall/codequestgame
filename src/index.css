@@ -30,10 +30,17 @@ code {
 }
 
 .back-button{
-  background-color: rgb(63, 78, 164);
+  background-color: rgb(203, 97, 91);
   font-size: larger;
   padding: 1em 2em;
   text-decoration: none;
+  border-radius: 1em;
+  border: none;
+}
+
+.start-button:hover,
+.back-button:hover {
+  transform: scale(1.02);
 }
 
 

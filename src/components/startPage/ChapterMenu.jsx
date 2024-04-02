@@ -1,5 +1,5 @@
 import React from "react";
-import CapterButton from "./ChapterButton";
+import ChapterButton from "./ChapterButton";
 
 const chapters = [
   { label: "Chapter", number: 1 },
@@ -21,8 +21,12 @@ const ChapterMenu = () => {
     <div className="chapter-menu-container">
       {chapters.map((item) => {
         return (
-          <div key={item.number}>
-            <CapterButton label={item.label} number={item.number} />
+          <div>
+            <ChapterButton
+              key={item.number}
+              label={item.label}
+              number={item.number}
+            />
           </div>
         );
       })}
