@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: blanchedalmond;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  text-align: center;
+  margin: 1em auto;
+  width: 80%;
+
+}
+
+.start-button{
+  background-color: rgb(107, 202, 107);
+  font-size: larger;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: black;
+  border-radius: 1em;
+}
+
+.back-button{
+  background-color: rgb(63, 78, 164);
+  font-size: larger;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+
+.login-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logout-form {
+  border-radius: 1em;
+  border-width: 1px;
+  margin: auto;
+  width: 40%;
+}
+
+.user-icon {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 45%;
+  background-color: rgb(233, 233, 233);
+}
+
+.link-register {
+  color: black;
+}
+
+
+/************Start Screen********************/
+.start-screen-header {
+  text-align: left;
+}
+.start-screen-header h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.header-text-image-area {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  gap: 2em;
+  padding: 1em 0;
+}
+
+
+.start-screen-header img {
+  width: 100%;
+}
+
+
+/***********chapter menu***********/
+.chapter-menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:4em;
+  padding:1em 0
+}
+
+.chapter-menu-container :nth-child(even){
+  margin-top: 4em;
+}
+
+
+/***********chapter challange list container**************/
+.chapter-challanges-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 auto;
+  gap: 1em;
+}
