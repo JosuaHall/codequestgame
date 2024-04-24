@@ -2,18 +2,20 @@ import React from "react";
 import ChapterButton from "./ChapterButton";
 
 const chapters = [
-  { label: "Chapter", number: 1 },
-  { label: "Chapter", number: 2 },
-  { label: "Chapter", number: 3 },
-  { label: "Chapter", number: 4 },
-  { label: "Chapter", number: 5 },
-  { label: "Chapter", number: 6 },
-  { label: "Chapter", number: 7 },
-  { label: "Chapter", number: 8 },
-  { label: "Chapter", number: 9 },
-  { label: "Chapter", number: 10 },
-  { label: "Chapter", number: 11 },
-  { label: "Chapter", number: 12 },
+  { label: "Week", number: 1 },
+  { label: "Week", number: 2 },
+  { label: "Week", number: 3 },
+  { label: "Week", number: 4 },
+  { label: "Week", number: 5 },
+  { label: "Week", number: 6 },
+  { label: "Week", number: 7 },
+  { label: "Week", number: 8 },
+  { label: "Week", number: 9 },
+  { label: "Week", number: 10 },
+  { label: "Week", number: 11 },
+  { label: "Week", number: 12 },
+  { label: "Week", number: 13 },
+  { label: "Week", number: 14 },
 ];
 
 const ChapterMenu = () => {

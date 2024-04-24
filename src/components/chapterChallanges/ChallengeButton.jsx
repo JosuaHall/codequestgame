@@ -5,7 +5,7 @@ const ChallengeButton = ({ label, id }) => {
   const { pathname } = useLocation();
 
   return (
-    <Link to={`${pathname}/challenge/${id}`} className="start-button">
+    <Link to={`${pathname}/challenge/${id}/${label}`} className="start-button">
       {label}
     </Link>
   );

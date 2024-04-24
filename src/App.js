@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/chapter/:id/challenge/:challengeId"
+          path="/chapter/:id/challenge/:challengeId/:challengeName"
           element={<ChapterChallenge />}
         />
         <Route path="/chapter/:id" element={<ChapterChallengesList />} />
