@@ -11,7 +11,7 @@ export const fetchQuestions = (chapter) => {
 
     try {
       const response = await axios.get(`/api/questions/chapter/${chapter}`);
-
+      console.log(response);
       dispatch({
         type: FETCH_QUESTIONS_SUCCESS,
         payload: {
