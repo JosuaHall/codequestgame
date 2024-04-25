@@ -4,6 +4,7 @@ import {
   SUBMIT_SUBMISSION_SUCCESS,
   SUBMIT_SUBMISSION_FAILURE,
 } from "./types";
+import packageInfo from "../../package.json";
 
 // Action Creator to submit the submission
 export const submitSubmission =
@@ -12,11 +13,14 @@ export const submitSubmission =
 
     try {
       // Make API request to save submission on the server
-      const response = await axios.post("/api/questions/submit", {
-        name,
-        studentId,
-        questionId,
-      });
+      const response = await axios.post(
+        `${packageInfo.proxy}/api/questions/submit`,
+        {
+          name,
+          studentId,
+          questionId,
+        }
+      );
 
       // Dispatch success action upon successful API response
       dispatch({
