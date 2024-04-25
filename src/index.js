@@ -12,8 +12,6 @@ import store from "./store";
 
 library.add(fab, fas);
 
-if (process.env.NODE_ENV === "production") disableReactDevTools();
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
