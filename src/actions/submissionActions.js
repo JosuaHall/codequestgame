@@ -12,11 +12,14 @@ export const submitSubmission =
 
     try {
       // Make API request to save submission on the server
-      const response = await axios.post(`/api/questions/submit`, {
-        name,
-        studentId,
-        questionId,
-      });
+      const response = await axios.post(
+        `https://codequestgameserver.onrender.com/api/questions/submit`,
+        {
+          name,
+          studentId,
+          questionId,
+        }
+      );
 
       // Dispatch success action upon successful API response
       dispatch({

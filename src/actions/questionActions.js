@@ -10,7 +10,9 @@ export const fetchQuestions = (chapter) => {
     dispatch({ type: FETCH_QUESTIONS_REQUEST });
 
     try {
-      const response = await axios.get(`/api/questions/chapter/${chapter}`);
+      const response = await axios.get(
+        `https://codequestgameserver.onrender.com/api/questions/chapter/${chapter}`
+      );
       console.log(response);
       dispatch({
         type: FETCH_QUESTIONS_SUCCESS,
