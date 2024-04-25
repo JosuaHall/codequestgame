@@ -23,7 +23,7 @@ const ChapterMenu = () => {
     <div className="chapter-menu-container">
       {chapters.map((item) => {
         return (
-          <div>
+          <div key={item.number}>
             <ChapterButton
               key={item.number}
               label={item.label}
