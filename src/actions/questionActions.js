@@ -11,7 +11,8 @@ export const fetchQuestions = (chapter) => {
 
     try {
       const response = await axios.get(
-        `https://codequestgameserver.onrender.com/api/questions/chapter/${chapter}`
+        /*https://codequestgameserver.onrender.com*/
+        `http://localhost:5000/api/questions/chapter/${chapter}`
       );
       console.log(response);
       dispatch({

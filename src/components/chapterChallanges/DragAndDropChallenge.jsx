@@ -214,6 +214,7 @@ const DragAndDropChallenge = ({ question }) => {
     <div>
       <div className="drag-and-drop-container">
         <div className="code-snippets">
+          <div className="heading-coding-challenge">Select Code Lines</div>
           {availableSnippets.map((snippet) => (
             <div
               key={snippet._id}
@@ -226,6 +227,7 @@ const DragAndDropChallenge = ({ question }) => {
           ))}
         </div>
         <div className="code-lines">
+          <div className="heading-coding-challenge">Build a Code Solution</div>
           {codeLines.map((lineId, index) => (
             <div
               key={index}
