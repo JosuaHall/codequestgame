@@ -2,20 +2,20 @@ import React from "react";
 import ChapterButton from "./ChapterButton";
 
 const chapters = [
-  { label: "Week", number: 1, text: "–> 1 Main and Print" },
-  { label: "Week", number: 2, text: "–> 2 Variables & Expressions" },
-  { label: "Week", number: 3, text: "–> 3 Scanning" },
-  { label: "Week", number: 4, text: "–> 4 If-else & Switch" },
-  { label: "Week", number: 5, text: "–> 5 Functions" },
-  { label: "Week", number: 6, text: "–> 6 While loops" },
-  { label: "Week", number: 7, text: "–> 7 For Loops" },
-  { label: "Week", number: 8, text: "–> 8 Arrays" },
-  { label: "Week", number: 9, text: "–> 9 Pointers" },
-  { label: "Week", number: 10, text: "–> 10 Enumerate" },
-  { label: "Week", number: 11, text: "–> 11 Strings" },
-  { label: "Week", number: 12, text: "–> 12 Structures" },
-  { label: "Week", number: 13, text: "–> 13 File I/O " },
-  { label: "Week", number: 14, text: "–> 14 Sample Programs" },
+  { label: "", number: 1, text: "Main and Print" },
+  { label: "", number: 2, text: " Variables & Expressions" },
+  { label: "", number: 3, text: "Scanning" },
+  { label: "", number: 4, text: "If-else & Switch" },
+  { label: "", number: 5, text: "Functions" },
+  { label: "", number: 6, text: "While loops" },
+  { label: "", number: 7, text: "For Loops" },
+  { label: "", number: 8, text: "Arrays" },
+  { label: "", number: 9, text: "Pointers" },
+  { label: "", number: 10, text: " Enumerate" },
+  { label: "", number: 11, text: " Strings" },
+  { label: "", number: 12, text: " Structures" },
+  { label: "", number: 13, text: " File I/O " },
+  { label: "", number: 14, text: " Sample Programs" },
 ];
 
 const ChapterMenu = () => {

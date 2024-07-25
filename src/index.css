@@ -119,7 +119,7 @@ code {
 }
 
 .button-chapter .start-button {
-  font-size: smaller;
+  font-size: normal;
   padding: .5em 2em;
   display: flex;
   align-items: center;

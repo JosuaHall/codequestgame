@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="start-screen-header">
       <h1>Code Quest Game</h1>
-      <h3>Welcome to Programming I with Dr. Redfield</h3>
+      <h3>Welcome to Programming I</h3>
       <div className="header-text-image-area">
         <p>
           Welcome to Programming 1 in C Practice Welcome to the Code Quest Game.
