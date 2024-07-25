@@ -6,7 +6,7 @@ import ChallengeButton from "../components/chapterChallanges/ChallengeButton";
 import BackButton from "../components/common/BackButton";
 
 const ChapterChallengesList = () => {
-  const { id } = useParams(); // Accessing the chapter ID parameter from the URL
+  const { id, text } = useParams(); // Accessing the chapter ID parameter from the URL
   const dispatch = useDispatch();
   const { loading, error, questionsByChapter } = useSelector(
     (state) => state.questionsReducer
@@ -19,7 +19,7 @@ const ChapterChallengesList = () => {
 
   return (
     <div className="chapter-challenges-list-container">
-      <h2>{`Chapter ${id}`}</h2>
+      <h2>{`Chapter ${id} ${text}`}</h2>
       <div className="chapter-challenges-buttons-container">
         {loading ? (
           <p>Loading...</p>

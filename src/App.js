@@ -14,7 +14,7 @@ function App() {
           path="/chapter/:id/challenge/:challengeId/:challengeName"
           element={<ChapterChallenge />}
         />
-        <Route path="/chapter/:id" element={<ChapterChallengesList />} />
+        <Route path="/chapter/:id/:text" element={<ChapterChallengesList />} />
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<StartPage />} />
         <Route path="" element={<StartPage />} />

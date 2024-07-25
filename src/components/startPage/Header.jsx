@@ -10,19 +10,19 @@ const Header = () => {
       <h3>Welcome to Programming I with Dr. Redfield</h3>
       <div className="header-text-image-area">
         <p>
-          Welcome to 'CodeQuest: The Beginner's Journey'! Step into the shoes of
-          Alex and Emma, two bright-eyed university students embarking on the
-          exciting adventure of learning programming. <br />
-          As students in Programming 1, Alex and Emma are eager to dive into the
-          world of C programming language. But like any new endeavor, the path
-          ahead seems daunting. That's where you come in. Join Alex and Emma on
-          this journey of discovery as you guide and mentor them through the
-          fundamentals of coding. Together, you'll unravel the mysteries of
-          loops, functions, and variables, all while tackling engaging
-          challenges and unraveling the secrets of programming. <br />
+          Welcome to Programming 1 in C Practice Welcome to the Code Quest Game.
+          Each section below has one or more quests that are small programs or
+          lines of code for you to put together. The sections correspond to
+          topics in the Programming 1 in C course. Piece the lines of code
+          together in the correct order to solve the quest. Just select a topic
+          that we have covered, and then select a problem to solve. Drag over
+          lines from the Select Code Lines to the Build a Code Solution lines.
+          You can see the text you put together in the Code Preview. Try out the
+          code solution with the Test Your Code button to see what lines are
+          correct and what you need to change. You can submit when you did a
+          correct response. <br />
           <br />
-          Are you ready to embark on this thrilling quest with Alex and Emma?
-          Let's begin!
+          Ready, set, go do a programming quest!
         </p>
 
         <div className="header-img">
