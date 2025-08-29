@@ -14,7 +14,7 @@ const chapters = [
   { label: "", number: 10, text: " Enumerate" },
   { label: "", number: 11, text: " Strings" },
   { label: "", number: 12, text: " Structures" },
-  { label: "", number: 13, text: " File I/O " },
+  { label: "", number: 13, text: " File Input&Output " },
   { label: "", number: 14, text: " Sample Programs" },
 ];
 
